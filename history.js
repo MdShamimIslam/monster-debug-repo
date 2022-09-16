@@ -14,7 +14,6 @@ function addHistory(questionText, timeTaken, errorCount, words_per_seconde) {
   <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
   </div>
   `;
-
   histories.appendChild(newRow);
 
   let previousTests = JSON.parse(localStorage.getItem('testHistory')) || [];
